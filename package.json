@@ -1,0 +1,33 @@
+{
+  "name": "texel",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "emcc": "make compile_emcc",
+    "install": "(node-gyp rebuild > builderror.log) || (exit 0)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubeniskov/texel.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rubeniskov/texel/issues"
+  },
+  "homepage": "https://github.com/rubeniskov/texel#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.16.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-class-properties": "^6.16.0",
+    "babel-plugin-transform-export-extensions": "^6.8.0",
+    "babel-preset-es2015": "^6.16.0",
+    "browserify": "^13.1.0",
+    "miniquery": "^1.1.2",
+    "npm-bump": "0.0.20",
+    "watchify": "^3.7.0"
+  }
+}
